@@ -44,6 +44,8 @@
 		<Item Name="Obtain Broadcast Events for Registration.vi" Type="VI" URL="../Obtain Broadcast Events for Registration.vi"/>
 		<Item Name="Settings--cluster.ctl" Type="VI" URL="../Settings--cluster.ctl"/>
 		<Item Name="Null Broadcast Events--constant.vi" Type="VI" URL="../Null Broadcast Events--constant.vi"/>
+		<Item Name="Test Meta Data.ctl" Type="VI" URL="../Test Meta Data.ctl"/>
+		<Item Name="DAQ Settings.ctl" Type="VI" URL="../DAQ Settings.ctl"/>
 	</Item>
 	<Item Name="Broadcasts" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
