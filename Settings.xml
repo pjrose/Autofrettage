@@ -1,0 +1,56 @@
+<?xml version='1.0' standalone='yes' ?>
+<LVData xmlns="http://www.ni.com/LVData">
+<Version>25.1.1f1</Version>
+<Cluster>
+<Name>Settings</Name>
+<NumElts>3</NumElts>
+<Path>
+<Name>Log File Base Path</Name>
+<Val>C:\Users\pjros\OneDrive\Desktop\Logged Files\Test.tdms</Val>
+</Path>
+<Cluster>
+<Name>Meta Data</Name>
+<NumElts>3</NumElts>
+<String>
+<Name>Operator</Name>
+<Val>dgdfg</Val>
+</String>
+<String>
+<Name>Job Number</Name>
+<Val>dfgdf</Val>
+</String>
+<String>
+<Name>Part Number</Name>
+<Val>gdfgdfg</Val>
+</String>
+</Cluster>
+<Cluster>
+<Name>DAQ Settings</Name>
+<NumElts>6</NumElts>
+<String>
+<Name>physical channel</Name>
+<Val>cDAQ1Mod1/ai0</Val>
+</String>
+<DBL>
+<Name>minimum value</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>maximum value</Name>
+<Val>94399.99999999999990</Val>
+</DBL>
+<I32>
+<Name>number of samples</Name>
+<Val>10</Val>
+</I32>
+<DBL>
+<Name>rate</Name>
+<Val>125.00000000000000</Val>
+</DBL>
+<String>
+<Name>custom scale name</Name>
+<Val>Pressure</Val>
+</String>
+</Cluster>
+</Cluster>
+</LVData>
