@@ -3,25 +3,25 @@
 <Version>25.1.1f1</Version>
 <Cluster>
 <Name>Settings</Name>
-<NumElts>3</NumElts>
+<NumElts>4</NumElts>
 <Path>
 <Name>Log File Base Path</Name>
-<Val>C:\Users\pjros\OneDrive\Desktop\Logged Files\Test.tdms</Val>
+<Val>C:\Users\Public\Documents\Autofrettage Data\Test.tdms</Val>
 </Path>
 <Cluster>
 <Name>Meta Data</Name>
 <NumElts>3</NumElts>
 <String>
 <Name>Operator</Name>
-<Val>dgdfg</Val>
+<Val></Val>
 </String>
 <String>
 <Name>Job Number</Name>
-<Val>dfgdf</Val>
+<Val></Val>
 </String>
 <String>
 <Name>Part Number</Name>
-<Val>gdfgdfg</Val>
+<Val></Val>
 </String>
 </Cluster>
 <Cluster>
@@ -29,7 +29,7 @@
 <NumElts>6</NumElts>
 <String>
 <Name>physical channel</Name>
-<Val>cDAQ1Mod1/ai0</Val>
+<Val>cDAQ9181-1913300Mod1/ai0</Val>
 </String>
 <DBL>
 <Name>minimum value</Name>
@@ -52,5 +52,9 @@
 <Val>Pressure</Val>
 </String>
 </Cluster>
+<Path>
+<Name>Report Save Folder</Name>
+<Val>C:\Users\pjros\OneDrive\Desktop</Val>
+</Path>
 </Cluster>
 </LVData>

@@ -21,6 +21,12 @@
 			<Item Name="Logger.lvlib" Type="Library" URL="../Libraries/Logger/Logger.lvlib"/>
 			<Item Name="Settings Editor.lvlib" Type="Library" URL="../Libraries/Settings Editor/Settings Editor.lvlib"/>
 		</Item>
+		<Item Name="Reporting" Type="Folder">
+			<Item Name="browse for tdms data file for report.vi" Type="VI" URL="../Reporting/browse for tdms data file for report.vi"/>
+			<Item Name="Copyright.vi" Type="VI" URL="../Reporting/Copyright.vi"/>
+			<Item Name="Get XY graph from TDMS file.vi" Type="VI" URL="../Reporting/Get XY graph from TDMS file.vi"/>
+			<Item Name="REPORT - Autofrettage.vi" Type="VI" URL="../Reporting/REPORT - Autofrettage.vi"/>
+		</Item>
 		<Item Name="Support" Type="Folder">
 			<Item Name="CML Shared.lvlib" Type="Library" URL="../Libraries/CML Shared/CML Shared.lvlib"/>
 			<Item Name="Launcher Support.lvlib" Type="Library" URL="../Libraries/Launcher Support/Launcher Support.lvlib"/>
@@ -33,6 +39,7 @@
 			<Item Name="Test Settings Editor API.vi" Type="VI" URL="../Libraries/Settings Editor/Test Settings Editor API.vi"/>
 		</Item>
 		<Item Name="Autofrettage Main.vi" Type="VI" URL="../Autofrettage Main.vi"/>
+		<Item Name="html_to_pdf.exe" Type="Document" URL="../html_to_pdf.exe"/>
 		<Item Name="Settings.xml" Type="Document" URL="../Settings.xml"/>
 		<Item Name="Setup DAQ.vi" Type="VI" URL="../Setup DAQ.vi"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
@@ -54,7 +61,7 @@
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_preActionVIID" Type="Ref">/My Computer/Support/Launcher Support.lvlib/Pre-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{F99CC542-5CD4-4BE2-9746-576CE11E803B}</Property>
-				<Property Name="Bld_version.build" Type="Int">5</Property>
+				<Property Name="Bld_version.build" Type="Int">7</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Autofrettage.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/Autofrettage.exe</Property>
@@ -69,7 +76,7 @@
 				<Property Name="Destination[2].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">3</Property>
 				<Property Name="Exe_cmdLineArgs" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{E9E6CD0A-C80E-48E5-BBBB-42A3DF40BE69}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{32B8E340-A7D5-49BF-9D57-6B750716EB29}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Autofrettage Main.vi</Property>
@@ -78,7 +85,10 @@
 				<Property Name="Source[2].destinationIndex" Type="Int">2</Property>
 				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Settings.xml</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="SourceCount" Type="Int">3</Property>
+				<Property Name="Source[3].destinationIndex" Type="Int">2</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/html_to_pdf.exe</Property>
+				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="SourceCount" Type="Int">4</Property>
 				<Property Name="TgtF_companyName" Type="Str">Delacor</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">Autofrettage</Property>
 				<Property Name="TgtF_internalName" Type="Str">Autofrettage</Property>
