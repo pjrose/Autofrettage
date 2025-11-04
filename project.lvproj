@@ -20,6 +20,7 @@
 			<Item Name="Acquisition.lvlib" Type="Library" URL="../Libraries/Acquisition/Acquisition.lvlib"/>
 			<Item Name="Logger.lvlib" Type="Library" URL="../Libraries/Logger/Logger.lvlib"/>
 			<Item Name="Settings Editor.lvlib" Type="Library" URL="../Libraries/Settings Editor/Settings Editor.lvlib"/>
+			<Item Name="SafetyLight.lvlib" Type="Library" URL="../Libraries/SafetyLight/SafetyLight.lvlib"/>
 		</Item>
 		<Item Name="Reporting" Type="Folder">
 			<Item Name="browse for tdms data file for report.vi" Type="VI" URL="../Reporting/browse for tdms data file for report.vi"/>
@@ -37,9 +38,13 @@
 			<Item Name="Test Acquisition API.vi" Type="VI" URL="../Libraries/Acquisition/Test Acquisition API.vi"/>
 			<Item Name="Test Logger API.vi" Type="VI" URL="../Libraries/Logger/Test Logger API.vi"/>
 			<Item Name="Test Settings Editor API.vi" Type="VI" URL="../Libraries/Settings Editor/Test Settings Editor API.vi"/>
+			<Item Name="Test SafetyLight API.vi" Type="VI" URL="../Libraries/SafetyLight/Test SafetyLight API.vi"/>
 		</Item>
 		<Item Name="Autofrettage Main.vi" Type="VI" URL="../Autofrettage Main.vi"/>
-		<Item Name="html_to_pdf.exe" Type="Document" URL="../html_to_pdf.exe"/>
+		<Item Name="htmltopdf.bat" Type="Document" URL="../htmltopdf.bat"/>
+		<Item Name="safety light settings.ctl" Type="VI" URL="../Libraries/SafetyLight/safety light settings.ctl"/>
+		<Item Name="safetyConfig.json" Type="Document" URL="../safetyConfig.json"/>
+		<Item Name="save default config.vi" Type="VI" URL="../Libraries/SafetyLight/save default config.vi"/>
 		<Item Name="Settings.xml" Type="Document" URL="../Settings.xml"/>
 		<Item Name="Setup DAQ.vi" Type="VI" URL="../Setup DAQ.vi"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
@@ -61,7 +66,7 @@
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_preActionVIID" Type="Ref">/My Computer/Support/Launcher Support.lvlib/Pre-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{F99CC542-5CD4-4BE2-9746-576CE11E803B}</Property>
-				<Property Name="Bld_version.build" Type="Int">7</Property>
+				<Property Name="Bld_version.build" Type="Int">14</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Autofrettage.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/Autofrettage.exe</Property>
@@ -76,7 +81,7 @@
 				<Property Name="Destination[2].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">3</Property>
 				<Property Name="Exe_cmdLineArgs" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{32B8E340-A7D5-49BF-9D57-6B750716EB29}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{2E43FA8B-0607-4342-B041-A77340A4A423}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Autofrettage Main.vi</Property>
@@ -86,7 +91,7 @@
 				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Settings.xml</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/My Computer/html_to_pdf.exe</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/htmltopdf.bat</Property>
 				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="SourceCount" Type="Int">4</Property>
 				<Property Name="TgtF_companyName" Type="Str">Delacor</Property>

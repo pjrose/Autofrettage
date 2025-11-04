@@ -1,0 +1,9 @@
+{
+  "Status":"",
+  "Light Status":false,
+  "Threshold On":200,
+  "Threshold Off":100,
+  "Siren on time":0.1,
+  "Siren off time":0.1,
+  "Repeats":3
+}
